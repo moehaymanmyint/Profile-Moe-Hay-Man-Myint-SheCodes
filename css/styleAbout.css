@@ -46,3 +46,8 @@
     color: var(--link-color);
     box-shadow: var(--box-shadow);
 }
+@media (max-width : 576px){
+    .home{
+        font-size: 15px;
+    }
+}

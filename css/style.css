@@ -25,14 +25,14 @@
 }
 
 .links {
-    margin: 50px;
+    margin: 20px;
     display: flex;
     justify-content: center;
 }
 
 .contact,
 .about {
-    font-size: 25px;
+    font-size: 20px;
     text-decoration: none;
     border: solid 1px var(--text-color);
     border-radius: 10px;
@@ -75,4 +75,23 @@
 
 .container {
     padding: 30px;
+}
+
+@media (max-width : 576px) {
+    .name{
+        font-size: 60px;
+    }
+    .home{
+        font-size: 50px;
+    }
+    .home h3{
+        font-size: 15px;
+    }
+    .contact,
+    .about {
+        font-size: 15px;
+    }
+    img{
+        display: none;
+    }
 }
